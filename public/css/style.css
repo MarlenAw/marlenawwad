@@ -1358,6 +1358,15 @@ span:nth-child(-n+6) {
 	}
 	.container .phonenemail {
 		width: 300px;
+		margin: 20px;
+	}
+}
+@media (max-width: 500px){
+	.container .contact-form{
+		display: none;
+	}
+	.container .phonenemail {
+		width: 300px;
 		margin: 30px;
 	}
 }
