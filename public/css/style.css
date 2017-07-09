@@ -68,34 +68,6 @@ body {
 	}
 }
 
-.container-fluid .row .phonenemail p{
-	color: #fff; 
-	font-size: 15px;
-}
-
-.container-fluid .row .phonenemail a{
-	color: #fff; 
-	font-size: 15px; 
-	margin: 0;
-}
-
-@media (max-width: 1600px){
-	.container-fluid .row .phonenemail a{
-		font-size: 13px;
-	}
-	.container-fluid .row .phonenemail p{
-		color: #fff; 
-		font-size: 13px;
-	}
-}
-@media (max-width: 1900px){
-	.container-fluid .row .phonenemail a{
-		font-size: 11px;
-	}
-	.container-fluid .row .phonenemail p{
-		font-size: 12px;
-	}
-}
 
 
 
@@ -917,7 +889,6 @@ span:nth-child(-n+6) {
 	font-weight:bold;
 	font-size:17px;
 	color:#ffffff;
-	background:#6adcfa;
 	-webkit-border-top-left-radius:3px;
 	-webkit-border-bottom-left-radius:4px;
 	border-top-left-radius:3px;
@@ -950,10 +921,32 @@ span:nth-child(-n+6) {
 	position:absolute;
 	right:10px;
 	top:0;
-	font-size:15px;
+	font-size:20px;
 	height:35px;
 	line-height:35px;
-	color:#fff;
+	color:#000;
+}
+
+@media (max-width: 400px){
+	.skill-bar-percent {
+		color:#fff;
+		font-size:15px;
+	}
+	.skillbar-title {
+		width:110px;
+		font-size:10px;
+
+	}
+	.skillbar {
+		width:100%;
+	}
+	.myskills h2{
+		color:  #ffc107;
+		font-family: 'Raleway';
+		font-size: 40px;
+		margin: 0 auto;
+		width: 30px;
+	}
 }
 
 /***********************************/
@@ -1289,17 +1282,19 @@ span:nth-child(-n+6) {
 	margin: 10px 0px 60px;
 	border: 1px solid GREY;
 	}
+/*
 .container .map{
 	margin: 5px; 
 	position:absolute;
 }
+*/
 
 .container .contact-form{
-	position:static; 
 	background-color: #000; 
 	border-radius: 5px; 
 	padding:10px;
-	width: 450px;
+	width: 350px;
+	float:right;
 }
 
 .container .contact-form h3{
@@ -1309,15 +1304,59 @@ span:nth-child(-n+6) {
 	text-transform: uppercase;
 }
 
+
+.container .phonenemail {
+	border: 2px solid #000;
+	height: auto;
+	width: 450px;
+	margin: 0 auto;
+	float: right;
+	font-size: 20px;
+	background: rgba(33, 33, 33, 0.68);
+}
+
+.container .phonenemail p{
+	color: #fff; 
+}
+
+.container .phonenemail a{
+	color: #fff; 
+	margin: 0;
+}
+
+.container .phonenemail .headercontact h2{
+	color:#ffc107;
+	font-weight: bold;
+	font-family: Roboto;
+	text-align: center;
+}
+.container .phonenemail .headercontact h4{
+	color: silver;
+	padding: 15px;
+	font-weight: bold;
+	font-family: Roboto;
+}
+.container .phonenemail .contactinfo{
+	color:silver;
+	font-weight: bold;
+	font-family: Roboto;
+	padding: 15px 0; 
+}
+
+
 @media (max-width: 600px){
-	.container .map{
-		display: none;
-	}
 	.container .contact-form{
 		width: 400px;
 	}
 }
-
+@media (max-width: 400px){
+	.container .contact-form{
+		display: none;
+	}
+	.container .phonenemail {
+		width: 300px;
+	}
+}
 
 
 
