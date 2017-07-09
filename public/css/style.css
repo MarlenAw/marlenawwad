@@ -68,6 +68,43 @@ body {
 	}
 }
 
+.container-fluid .row .phonenemail p{
+	color: #fff; 
+	font-size: 15px;
+}
+
+.container-fluid .row .phonenemail a{
+	color: #fff; 
+	font-size: 15px; 
+	margin: 0;
+}
+
+@media (max-width: 1600px){
+	.container-fluid .row .phonenemail a{
+		font-size: 13px;
+	}
+	.container-fluid .row .phonenemail p{
+		color: #fff; 
+		font-size: 13px;
+	}
+}
+@media (max-width: 1900px){
+	.container-fluid .row .phonenemail a{
+		font-size: 11px;
+	}
+	.container-fluid .row .phonenemail p{
+		font-size: 12px;
+	}
+}
+@media (max-width: 800px){
+	.container-fluid .row .phonenemail a{
+		font-size: 11px;
+	}
+	.container-fluid .row .phonenemail p{
+		display: none;
+	}
+}
+
 
 
 /******************/
