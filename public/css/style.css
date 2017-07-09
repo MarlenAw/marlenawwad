@@ -96,14 +96,7 @@ body {
 		font-size: 12px;
 	}
 }
-@media (max-width: 800px){
-	.container-fluid .row .phonenemail a{
-		font-size: 11px;
-	}
-	.container-fluid .row .phonenemail p{
-		display: none;
-	}
-}
+
 
 
 
