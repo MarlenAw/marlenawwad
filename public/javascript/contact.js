@@ -43,5 +43,5 @@ $(document).ready(function(){
 
 function redirect()
 {
-    window.location.href="http://localhost:3000/contact";
+    window.location.href="http://marlenawwad.herokuapp.com/contact";
 }
