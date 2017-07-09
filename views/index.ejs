@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	
+  <head>
+    <meta charset="UTF-8">
+	<!--To ensure proper rendering and touch zooming-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title><%= siteTitle %>--<%= pageTitle %></title>
+	
+	<link rel="stylesheet" type="text/css" href="http://csshake.surge.sh/csshake.min.css">
+	<link href="/css/bootstrap-3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="/css/bootstrap-3.3.7/css/bootstrap.min.css" rel="stylesheet"  media="all">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet"> 
+	<link rel="stylesheet" href="/css/style.css">
+
+	
+	
+
+</head>
+  <body id="<%= pageId %>">
+	  
+	  
+	  
+	  <div id="load"></div>	
+	
+<div class="container-fluid" id="content">
+		
+			<!----------------------------------FULLSTACK LOGO----------------------------------->
+			<div class="row">
+				<div class="col-sm-10">
+						
+					<img src="/images/fullstackdeveloper.png" class="imgfullstack">
+		
+				</div>
+				<div class="col-sm-2">
+					<p style="color: #fff; font-size: 15px;"><span class="collig">Phone:</span>&nbsp; &nbsp; &nbsp; 0506374363</p>
+					<p style="color: #fff; font-size: 15px;"><span class="collig">Email:</span><a href="https://mail.google.com/mail/?view=cm&fs=1&to=awwadmarlen@gmail.com" style="color: white; font-size: 15px; margin: 0;" target="_blank">awwadmarlen@gmail.com</a></p>
+				</div>
+			</div> <!--End of ROW-->
+
+			
+			
+			  <!-------------------------------NAV-BAR---------------------------------------------->	
+			<nav class = "navbar navbar-inverse" role = "navigation">
+
+				   <div class = "navbar-header">
+					   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="sr-only">Toggle navigation</span>
+					  </button>   
+					  <a class = "navbar-brand" href = "//localhost:3000">
+						 <img src="/images/marlen.jpg" class="img-circle"> 
+						 <img src="/images/marlen_text_effect.png" class="marlen-text-effect">
+					  </a> 
+				   </div>
+
+				   <div class="collapse navbar-collapse" id="navbar-collapse-1">
+				   <div>
+					  <ul class = "nav navbar-nav navbar-right">
+						 <li><a href = "//localhost:3000/aboutme">About Me</a></li>
+						  <li><a href = "//localhost:3000/skills">Skills</a></li>
+						 <li class = "dropdown">
+							<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
+							   Projects 
+							   <b class = "caret"></b>
+							</a>
+							<ul class = "dropdown-menu">
+							   <li><a href = "//localhost:3000">Collection/ShoppingCart</a></li>
+							   <!--<li><a href = "#">Angular</a></li>
+							   <li><a href = "#">Mongodb</a></li>
+							   <li><a href = "#">Express.js</a></li>-->
+							   <li class = "divider"></li>
+							   <li><a href = "//localhost:3000">Fake Website</a></li>
+							   <li class = "divider"></li>
+							   <li class = "divider"></li>
+							</ul>
+						 </li>
+						 <li><a href = "//localhost:3000/chat">Chat</a></li> 
+						<li><a href = "//localhost:3000/feedback">Leave a feedback</a></li>
+  						<li><a href = "//localhost:3000/contact"><span class="glyphicon glyphicon-user" style="color: #000;"></span></a></li></ul>
+				   </div>
+				  </div>
+				
+			   </nav> <!--End of NAV BAR-->
+			
+			
+			<!-----------------------------------------------BODY----------------------------------------------->
+			<div class="row row-text">
+				<!--<h2> TEST TEST</h2>-->
+				<div class="imgleft col-lg-1 col-md-1  col-sm-1 col-xs-1">
+					<img src="/images/webninjaleft.png">
+				</div>
+				<div class="animatename shake-slow col-lg-6  col-md-hidden col-sm-hidden  col-xs-hidden ">
+					<h1>MARLEN AWWAD</h1>
+				</div>
+				<div class="imgright col-lg-1 col-md-1  col-sm-1 col-xs-1">
+					<img src="/images/webninjaright.png">
+				</div>
+			</div> <!--End of row row-text// BODY-->
+				
+			<!--ARROWS-->
+			<div class="row row-demo">
+				
+				<section class="demo1 col-lg-6 col-md-6  col-sm-6 col-xs-6">
+					<a href="#section2">
+						<button id="toggle1" class="closed translate"><i class="fa fa-arrow-circle-o-right icon-rotate1"></i> Front-End</button>
+					</a>
+				</section>
+				
+				<section  class="demo2 col-lg-6 col-md-6 col-sm-6 col-xs-6">
+					<a href="#section1">
+						<button id="toggle2" class="closed translate"><i class="fa fa-arrow-circle-o-right icon-rotate2"></i> Back-End</button>
+					</a>
+				</section>
+			</div> <!--End of ROW-DEMO / ARROWS-->
+				
+				
+				
+				
+			<!--ABOUT ME & SKILLS PAGES-->	
+			<div class="row row-pages">
+				<div class="row row-skillspage">
+					<h2 id="section2">Front-End Web Development</h2>
+					<p>
+						I'm a Full Stack developer with strong skills in Front End Technologies. I'm enthusiast and also keen about doing things the effective and efficient way.
+						
+					</p>
+							<!--<ul>
+								<li>HTML and HTML5 features.</li>
+								<li>CSS and CSS3 features.</li>
+								<li>Responsive Web design mobile first.</li>
+								<li>jQuery framework for DOM manipulations and data handling.</li>
+								<li>AJAX to get JSON data coming from Web Services.</li>
+								<li>Javascript.</li>
+								<li>Angular.</li>
+								
+							</ul>-->
+					
+				</div>
+
+				<div class="row row-aboutmepage">	
+					<h2 id="section1">Back-End Web Development</h2>
+					<p>
+						I'm a Back-End developer with a keen eye on details and usability. I'm also an open source enthusiast. I spend most of the time dabbling code and testing various APIs.
+					</p>	
+				</div> <!--End of ABOUT ME & SKILLS PAGES-->
+			</div>	
+
+  <!------------------------------------------------------------FOOTER---------------------------------------------------->
+		
+		
+			
+      
+	<% include partials/template/footer.ejs %>
+
+    
+
+   
+	
+		
+		
+</div> <!--End of container-fluid-->
+	  
+
+	  
+	  
+	
+	
+<script src="/javascript/jquery-3.1.0.js"></script>
+<script src="/javascript/animation.js"></script>
+<script src="/css/bootstrap-3.3.7/js/bootstrap.min.js"></script>  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
