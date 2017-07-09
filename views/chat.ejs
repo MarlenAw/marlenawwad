@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head><% include partials/template/head.ejs %></head>
+  <body id="<%= pageId %>">
+    <% include partials/template/header.ejs %>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <article class="chat">
+            <header class="chat-header">
+              <div class="h3 chat-title">Chat
+              </div><!-- chat-title -->
+            </header><!-- chat-header -->
+            <form name="chatForm" class="form-horizontal chat-form">
+              <div class="form-group">
+                <label for="chat-username" class="col-sm-1 control-label">Name/Username</label>
+                <div class="col-sm-12">
+                  <input type="text" class="form-control" id="chat-username" required placeholder="Enter your name">
+                </div><!-- col-sm-10 -->
+              </div><!-- form-group -->
+              <div class="form-group">
+                <label for="chat-message" class="col-sm-1 control-label">Message</label>
+                <div class="col-sm-12">
+                  <div class="input-group">
+                    <input type="text" placeholder="Enter a message, then press enter" class="form-control" id="chat-message" rows="2" autocomplete="off"
+                     required>
+                    <span class="input-group-btn">
+                      <button id="chat-submit" class="btn btn-info" type="submit">Chat</button>
+                    </span>
+                  </div><!-- input-group -->
+                </div><!-- col-sm-10 -->
+              </div><!-- form-group -->
+            </form>
+            <div class="panel panel-default">
+              <div class="panel-body chat-display">
+                <p class="text-muted chat-text">Welcome...add your message using the form above</p>
+              </div><!-- end of panel-body -->
+            </div><!-- end of panel-default -->
+          </article><!-- end of article -->
+        </div><!-- col-sm-12 -->
+      </div><!-- end of row -->
+    </div><!-- end of container -->
+	  
+	  
+	  <!--footer-->
+  <div class="container-fluid" style="height: 0;">
+	  <% include partials/template/footer.ejs %>
+
+  </div>
+	  
+    <% include partials/template/allJsIncludes.ejs %>
+  </body>
+</html>

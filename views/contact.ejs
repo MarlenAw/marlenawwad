@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head><% include partials/template/head.ejs %></head>
+  <body id="<%= pageId %>">
+    <% include partials/template/header.ejs %>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+<div class="container">
+	
+	<!--GOOGLE MAPS - HAIFA-->
+<!--
+	<div class="map col-sm-4">	
+		
+		<script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:600px;width:1200px;'><div id='gmap_canvas' style='height:600px;width:1200px;'></div><div><small><a href="http://embedgooglemaps.com">Click here to generate your map!</a></small></div><div><small><a href="http://mrdiscountcode.hk/zalora/">Visit This Link!</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(32.7940463,34.98957100000007),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(32.7940463,34.98957100000007)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>Israel, Haifa<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+		
+ 	</div>	
+-->	
+	
+	
+<div class="col-md-4 col-sm-4 col-xs-2">
+	
+	<!--SUBMIT FORM-->
+	
+	<form class="contact-form" action="/contact" method="post">
+		
+              <h3>Get in touch</h3>
+		<!--NAME-->
+    				<div class="form-group">
+						<label for="name">Name</label>
+						<input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
+					</div>
+		<!--EMAIL-->
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+					</div>
+		<!--MOBILE-->
+					<div class="form-group">
+						<label for="mobile">Mobile</label>
+						<input type="number" class="form-control" name="mobile" id="mobile" placeholder="Mobile Number" id="contact-form-title" required>
+					</div>
+		<!--SUBJECT-->
+					<div class="form-group">
+						<label for="subject">Subject</label>
+						<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+					</div>
+		<!--MESSAGE-->
+                    <div class="form-group">
+					<label for="message">Message</label>
+                    <textarea class="form-control" type="textarea" name="message" id="message" placeholder="Message" maxlength="140" rows="7" required></textarea>
+                        <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>                    
+                    </div>
+            
+					<button type="submit" id="submit" class="btn btn-primary pull-right" style="margin-top: -30px;" onclick="redirect()">Submit Form</button>
+	</form>
+		
+	</div>
+	
+					
+			
+<div class=" phonenemail col-md-6 col-sm-6 col-xs-4">
+			<div class="headercontact">
+				<h2>I would love to hear from you! </h2>
+				<h4>Would you like to discuss a potential project? You can send me a message using this contact form or you can reach me using the information below:</h4>
+			</div>
+	
+			<div class="contactinfo">
+			<h3>Contact Information: </h3>
+			</div>
+				
+					<p>
+						<span class="collig"><i class="fa fa-map-marker" aria-hidden="true"></i> Place:</span>
+						&nbsp; &nbsp; Israel, Haifa
+					</p>
+
+	
+					<p>
+						<span class="collig"><i class="fa fa-phone" aria-hidden="true"></i> Phone:</span>
+						&nbsp; &nbsp;  0506374363
+					</p>
+	
+					<p>
+						<span class="collig"><i class="fa fa-envelope" aria-hidden="true"></i> Email:</span>
+						<a href="https://mail.google.com/mail/?view=cm&fs=1&to=awwadmarlen@gmail.com" target="_blank">&nbsp; &nbsp; awwadmarlen@gmail.com</a>
+					</p>
+				</div>
+	
+	
+</div>	<!--END OF CONTAINER-->
+		
+
+	  
+	  
+	  <!--footer-->
+  <div class="container-fluid" style="height: 0;">
+	  <% include partials/template/footer.ejs %>
+  </div>
+	  
+	  <!--script-->
+    <% include partials/template/allJsIncludes.ejs %>
+	  
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
