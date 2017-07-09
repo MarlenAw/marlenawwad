@@ -1357,8 +1357,8 @@ span:nth-child(-n+6) {
 		display: none;
 	}
 	.container .phonenemail {
-		width: 400px;
-		margin: 50px;
+		width: 300px;
+		margin: 30px;
 	}
 }
 
