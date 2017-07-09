@@ -575,7 +575,6 @@ span:nth-child(-n+6) {
 	.container-fluid .row-text .animatename h1 {
 	  padding-left: 300px;
 	  font-size: 22px;
-
 	}
 }
 @media (max-width: 600px){
@@ -586,9 +585,12 @@ span:nth-child(-n+6) {
 }
 @media (max-width: 500px){
 	.container-fluid .row-text .animatename h1 {
-	  padding-left: 150px;
-	  font-size: 20px;	
+	  padding-left: 50px;
+	  font-size: 25px;	
 	  line-height: 90px;
+	}
+	.container-fluid .row-text .imgright img{
+		display: none;
 	}
 }
 @media (max-width: 400px){
@@ -776,12 +778,12 @@ span:nth-child(-n+6) {
 }
 @media (max-width: 500px){
 	.container-fluid .row-demo .demo1 a .closed{
-		bottom: 90px;
-		left: 50px;
+		bottom: 50px;
+		left: 30px;
 		
 	} 
 	.container-fluid .row-demo .demo2 a .closed {
-		bottom: 90px;
+		bottom: 50px;
 		left: 30px;
 	}
 }
