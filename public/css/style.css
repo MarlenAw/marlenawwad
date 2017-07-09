@@ -586,7 +586,7 @@ span:nth-child(-n+6) {
 @media (max-width: 500px){
 	.container-fluid .row-text .animatename h1 {
 	  padding-left: 3px;
-	  font-size: 20px;	
+	  font-size: 25px;	
 	  line-height: 50px;
 	}
 	.container-fluid .row-text .imgright img{
