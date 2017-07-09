@@ -585,7 +585,7 @@ span:nth-child(-n+6) {
 }
 @media (max-width: 500px){
 	.container-fluid .row-text .animatename h1 {
-	  padding-left: 50px;
+	  padding-left: 5px;
 	  font-size: 25px;	
 	  line-height: 90px;
 	}
@@ -778,12 +778,12 @@ span:nth-child(-n+6) {
 }
 @media (max-width: 500px){
 	.container-fluid .row-demo .demo1 a .closed{
-		bottom: 50px;
+		bottom: 40px;
 		left: 30px;
 		
 	} 
 	.container-fluid .row-demo .demo2 a .closed {
-		bottom: 50px;
+		bottom: 40px;
 		left: 30px;
 	}
 }
@@ -929,7 +929,7 @@ span:nth-child(-n+6) {
 	color:#000;
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
 	.skill-bar-percent {
 		color:#fff;
 		font-size:15px;
@@ -949,6 +949,7 @@ span:nth-child(-n+6) {
 		margin: 0 auto;
 		width: 30px;
 	}
+	
 }
 
 /***********************************/
