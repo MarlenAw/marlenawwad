@@ -1352,12 +1352,12 @@ span:nth-child(-n+6) {
 		width: 400px;
 	}
 }
-@media (max-width: 400px){
+@media (max-width: 600px){
 	.container .contact-form{
 		display: none;
 	}
 	.container .phonenemail {
-		width: 300px;
+		width: 500px;
 	}
 }
 
