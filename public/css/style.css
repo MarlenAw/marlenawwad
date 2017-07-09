@@ -867,6 +867,9 @@ span:nth-child(-n+6) {
 	padding: 50px;
 }
 
+
+
+
 .skillbar {
 	position:relative;
 	display:block;
@@ -946,7 +949,7 @@ span:nth-child(-n+6) {
 		color:  #ffc107;
 		font-family: 'Raleway';
 		font-size: 40px;
-		margin: 0 auto;
+		margin: 0 20%;
 		width: 30px;
 	}
 	
