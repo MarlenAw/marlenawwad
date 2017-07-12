@@ -796,6 +796,7 @@ span:nth-child(-n+6) {
 
 .container-fluid .row-skillspage h2{
 	color: #ffc107;
+	font-family: Roboto;
 }
 .container-fluid .row-skillspage h2:hover{
 	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
@@ -809,6 +810,7 @@ span:nth-child(-n+6) {
 	height: 700px;
 	list-style: none;
 	font-size: 25px;
+	font-family: Roboto;
 	transform: translateY( -552px );
 	background-image: url("../images/blackgb.jpg");
 	padding: 30px;
@@ -827,6 +829,7 @@ span:nth-child(-n+6) {
 
 .container-fluid .row-aboutmepage h2{
 	color: #ffc107;	
+    font-family: Roboto;
 }
 .container-fluid .row-aboutmepage h2:hover{
 	animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
@@ -837,6 +840,7 @@ span:nth-child(-n+6) {
 .container-fluid .row-aboutmepage{
 	display: none;
 	height: 700px;
+	font-family: Roboto;
 	list-style: none;
 	font-size: 25px;
 	transform: translateY( -552px );
@@ -962,10 +966,13 @@ span:nth-child(-n+6) {
 .aboutme h2{
 	color: #bfbfbf;
 	text-align: center;
+	font-family: Roboto;
+	margin: 50px;
 }
 .aboutme h3{
 		color: #bfbfbf;
 		text-align: center;
+		font-family: Roboto;
 	}
 @media (max-width: 600px){
 	.aboutme h3{
