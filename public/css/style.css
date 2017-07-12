@@ -966,19 +966,32 @@ span:nth-child(-n+6) {
 .aboutme h2{
 	color: #bfbfbf;
 	text-align: center;
+	text-decoration: underline;
 	font-family: Roboto;
 	margin: 50px;
 }
 .aboutme h3{
-		color: #bfbfbf;
-		text-align: center;
-		font-family: Roboto;
-	}
+	color: #bfbfbf;
+	text-align: center;
+	font-family: Roboto;
+}
+.aboutme .aboutmarlen{
+	width: 350px;
+	height: 300px;
+	border-radius: 5px;
+}
+
 @media (max-width: 600px){
 	.aboutme h3{
 		color: #bfbfbf;
 		font-family: Roboto;
 		text-align: center;
+		font-size: 18px;
+	}
+	.aboutme .aboutmarlen{
+		width: 250px;
+		height: 200px;
+		border-radius: 5px;
 	}
 	
 }
